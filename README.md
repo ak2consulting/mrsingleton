@@ -1,3 +1,8 @@
+Mr. Singleton lives in his cloud house where he dispatches gifs, builds, and notifications to IRC.
+
+Mr. Singleton is a Hubot.
+
+
 # Hubot
 
 This is a version of GitHub's Campfire bot, hubot. He's pretty cool.
@@ -161,4 +166,3 @@ Add the subdomain hubot should connect to. If you web URL looks like
 
 You may want to get comfortable with `heroku logs` and `heroku restart`
 if you're having issues.
-
