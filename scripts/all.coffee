@@ -11,6 +11,7 @@ module.exports = (robot) ->
 
     userList = for id, user of robot.users()
       "#{user.name}"
+    userList = (name for name in userList when !name.match(/^github/i))
 
     msg.send "#{userList}: ^^^"
 
